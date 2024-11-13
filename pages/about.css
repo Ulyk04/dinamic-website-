@@ -1,0 +1,72 @@
+* , html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #002444;
+}
+img{
+    width: 1000px;
+    height: 1000px;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tablic{
+    width: 1200px;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 200px;
+    left: 18%;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+img:nth-child(2){
+    width: 100px;
+    height: 80px;
+    position: relative;
+    left: 1000px;
+    top: -35px;
+    cursor: pointer;
+}
+h1{
+    color: white;
+    font-size: 55px;
+    position: relative;
+    left: 25px;
+    top: 15px;
+}
+
+hr{
+    position: relative;
+    top: -15px;
+}
+textarea {
+    width: 1180px;
+    height: 400px;
+    background-color: transparent;
+    outline: none;
+    color: white;
+    border: 0px solid;
+    text-align: left;
+    padding: 15px;
+    font-size: 25px;
+    resize: none; /* Prevents resizing */
+    overflow: auto; /* Ensures scroll appears when content overflows */
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.head h1{
+    font-size:80px;
+}
+.head hr{
+    margin-top: 5px;
+    border: 2px solid white;
+}

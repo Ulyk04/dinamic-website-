@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grafa</title>
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    <div>
+        <img src="../images/download.png" alt="">
+        <img src="../images/login-removebg-preview.png" alt="">
+    </div>
+
+    <div class="sign" >
+        <h1>Sign up</h1>
+        <form id="signUpForm">
+        <input type="text" name="username" placeholder="Username" required >
+        <input type="email" name="email" placeholder="Email" required >
+        <input type="password" name="password" placeholder="Password" required >
+        <button type="button" onclick="sendSignupData()" >Next</button>
+        </form>
+    </div>
+
+
+    <form id="verifyForm" style="display:none;">
+        <input type="text" name="code" placeholder="Verification Code" required>
+        <button type="button" onclick="verifyCode()">Verify Code</button>
+    </form>
+
+    <script src="signup.js" ></script>
+</body>
+</html>
